@@ -1,6 +1,6 @@
-# Landing page para venda de NFTs com React
+# Landing page para venda de NFTs com React (Em construção)
 
-Em breve o link da demo
+[DEMO](https://nft-site-three.vercel.app/)
 
 ## Recursos utilizados no projet 
 - Character Figures: https://bigheads.io/
