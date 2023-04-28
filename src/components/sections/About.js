@@ -60,10 +60,10 @@ const SubTextLight = styled.p`
 `;
 
 const ButtonContainer = styled.div`
-width: 80%;
-margin: 1rem auto;
-align-self: flex-start;
-`
+  width: 80%;
+  margin: 1rem auto;
+  align-self: flex-start;
+`;
 
 const About = () => {
   return (
@@ -74,21 +74,21 @@ const About = () => {
           <Carousel />{" "}
         </Box>
         <Box>
-          <Title>Welcome To The Weirdos Club.</Title>
+          <Title>Bem vindo ao CYBER CLUB.</Title>
           <SubText>
-            The WEIRDOS CLUB is a private collection of NFTs—unique digital
-            collectibles. The Weirdos are stored as ERC-721 tokens on the
-            Ethereum blockchain and hosted on IPFS.
+            O CYBER CLUB é uma coleção privada de NFTs—exclusivo digital
+            colecionáveis. Todos eles são armazenados como tokens ERC-721 no
+            Blockchain Ethereum e hospedado em IPFS.
           </SubText>
           <SubTextLight>
-            With more than 200+ hand drawn traits, each NFT is unique and comes
-            with a membership to an exclusive group of successful investors.
-            Join an ambitious ever-growing community with multiple benefits and
-            utilities.
+            Com mais de 200 traços desenhados à mão, cada NFT é único e vem com
+            a adesão a um grupo exclusivo de investidores de sucesso. Junte-se a
+            uma comunidade ambiciosa em constante crescimento com múltiplos
+            benefícios e serviços de utilidade pública.
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
-              <Button text="Join Our Discord" link="#" />
+              <Button text="Entre no Discord" link="#" />
             </ThemeProvider>
           </ButtonContainer>
         </Box>

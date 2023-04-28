@@ -157,20 +157,20 @@ const Navigation = () => {
           &nbsp;
         </HamburgerMenu>
         <Menu click={click}>
-          <MenuItem onClick={() => scrollTo("home")}>Home</MenuItem>
-          <MenuItem onClick={() => scrollTo("about")}>About</MenuItem>
+          <MenuItem onClick={() => scrollTo("home")}>Início</MenuItem>
+          <MenuItem onClick={() => scrollTo("about")}>Sobre</MenuItem>
           <MenuItem onClick={() => scrollTo("roadmap")}>RoadMap</MenuItem>
-          <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem>
-          <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
+          <MenuItem onClick={() => scrollTo("showcase")}>Mostruário</MenuItem>
+          <MenuItem onClick={() => scrollTo("team")}>Time</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-              <Button text="Connect Wallet" link="#" />
+              <Button text="Carteira Digital" link="#" />
             </div>
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button text="Connect Wallet" link="#" />
+          <Button text="Carteira Digital" link="#" />
         </div>
       </Navbar>
     </Section>

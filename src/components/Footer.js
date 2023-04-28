@@ -131,17 +131,17 @@ const Footer = () => {
           </IconList>
         </Left>
         <MenuItems>
-        <Item onClick={() => scrollTo('home')}>Home</Item>
-          <Item onClick={() => scrollTo('about')}>About</Item>
+        <Item onClick={() => scrollTo('home')}>Início</Item>
+          <Item onClick={() => scrollTo('about')}>Sobre</Item>
           <Item onClick={() => scrollTo('roadmap')}>RoadMap</Item>
-          <Item onClick={() => scrollTo('showcase')}>Showcase</Item>
-          <Item onClick={() => scrollTo('team')}>Team</Item>
+          <Item onClick={() => scrollTo('showcase')}>Mostruário</Item>
+          <Item onClick={() => scrollTo('team')}>Time</Item>
           <Item onClick={() => scrollTo('faq')}>Faq</Item>
         </MenuItems>
       </Container>
       <Bottom>
-        <span>&copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.</span>
-        <span>Made with &#10084; by <a href="https://www.linkedin.com/in/eduardovsousa/" target={"_blank"} rel="noreferrer">EvS</a></span>
+        <span>&copy; {new Date().getFullYear()} CYBER CLUB. Todos os direitos reservados.</span>
+        <span>Feito por <a href="https://www.linkedin.com/in/eduardovsousa/" target={"_blank"} rel="noreferrer">EvS</a></span>
       </Bottom>
     </Section>
   );

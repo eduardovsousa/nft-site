@@ -110,25 +110,25 @@ const Team = () => {
   return (
     <Section id="team">
       <ConfettiComponent />
-      <Title>Team</Title>
+      <Title>Time</Title>
       <Container>
-        <MemberComponent img={img1} name="SKYBLAZE" position="founder" />
-        <MemberComponent img={img2} name="MEGNUM" position="Co-Founder" />
-        <MemberComponent img={img3} name="MONKEY KING" position="Director" />
-        <MemberComponent img={img4} name="BLACK PANTHER" position="Manager" />
-        <MemberComponent img={img5} name="DEATHSTROKE" position="Artist" />
+        <MemberComponent img={img1} name="SKYBLAZE" position="fundadora" />
+        <MemberComponent img={img2} name="MEGNUM" position="Co-Fundador" />
+        <MemberComponent img={img3} name="MONKEY KING" position="Diretor" />
+        <MemberComponent img={img4} name="BLACK PANTHER" position="Gerente" />
+        <MemberComponent img={img5} name="DEATHSTROKE" position="Artista" />
         <MemberComponent
           img={img6}
           name="LAZY KONG"
-          position="Social Media Manager"
+          position="Gerente de Social Media"
         />
         <MemberComponent
           img={img7}
           name="CYBER PUNK"
-          position="Blockchain Specialist"
+          position="Especialista em Blockchain"
         />
         <MemberComponent img={img8} name="MONK" position="Web3 Developer" />
-        <MemberComponent img={img9} name="BANANA" position="Graphic Designer" />
+        <MemberComponent img={img9} name="BANANA" position="Designer Gráfico" />
       </Container>
     </Section>
   );

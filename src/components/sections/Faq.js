@@ -48,54 +48,54 @@ const Faq = () => {
 
     ScrollTrigger.create({
       trigger: element,
-      start: 'top top',
-      end: 'bottom top',
-      pin:true,
+      start: "top top",
+      end: "bottom top",
+      pin: true,
       pinSpacing: false,
-      scrub:true,
-    })
+      scrub: true,
+    });
     return () => {
       ScrollTrigger.kill();
-    }
-  }, [])
+    };
+  }, []);
 
   return (
     <Section id="faq" ref={ref}>
       <Title>Faq</Title>
       <Container>
         <Box>
-          <Accordion title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+          <Accordion title="ONDE POSSO VER MEUS NFTS?">
+            Depois de comprado, basta conectar-se à sua conta OpenSea para
+            visualizar suas NFTs.
           </Accordion>
-          <Accordion title="WHAT IS THE METAVERSE?">
-            A metaverse is a network of 3D virtual worlds focused on social
-            connection. In futurism and science fiction, it is often described
-            as a hypothetical iteration of the Internet as a single, universal
-            virtual world that is facilitated by the use of virtual and
-            augmented reality headsets.
+          <Accordion title="O QUE É O METAVERSO?">
+            O metaverso é uma rede de mundos virtuais 3D focados em conexão. No
+            futurismo e na ficção científica, é frequentemente descrito como uma
+            iteração hipotética da Internet como um único e universal mundo
+            virtual que é facilitado pelo uso de recursos virtuais e fones de
+            ouvido de realidade aumentada.
           </Accordion>
-          <Accordion title="WHY DO WE NEED ROYALTIES?">
-            The amount of royalties was fixed at 5% to finance the Weirdos
-            Club's projects. We have the ambition to organize multiple events
-            around the world in order to strengthen the community and build a
-            network of entrepreneurs and investors with the same mindset and
-            common interests.
+          <Accordion title="POR QUE PRECISAMOS DE ROYALTIES?">
+            O valor dos royalties foi fixado em 5% para financiar os projetos do
+            CYBER CLUB. Temos a ambição de organizar vários eventos em todo o
+            mundo, a fim de fortalecer a comunidade e construir uma rede de
+            empreendedores e investidores com a mesma mentalidade e interesses
+            em comum.
           </Accordion>
         </Box>
         <Box>
-          <Accordion title="HOW CAN I USE MY NFT?">
-            You will be able to use your NFT as an avatar in the Metaverse and
-            our future video game. Holding also means that you are part of an
-            exclusive network of investors and entrepreneurs.
+          <Accordion title="COMO POSSO USAR MEU NFT?">
+            Você poderá usar seu NFT como avatar no Metaverso e nosso futuro
+            game. Você faz parte de um rede exclusiva de investidores e
+            empreendedores.
           </Accordion>
-          <Accordion title="WHAT ARE THE WEIRDOS?">
+          <Accordion title="O QUE É O CYBER CLUB?">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
             deserunt consequatur quisquam maxime molestias dolores ipsum,
             exercitationem vel sint quidem aliquam modi quis impedit corporis
             unde inventore fugiat provident in..
           </Accordion>
-          <Accordion title="WHAT IS THE FUSION PROCESS?">
+          <Accordion title="O QUE É O PROCESSO DE FUSÃO?">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
             deserunt consequatur quisquam maxime molestias dolores ipsum,
             exercitationem vel sint quidem aliquam modi quis impedit corporis

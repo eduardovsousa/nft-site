@@ -75,8 +75,8 @@ const TypeWriterText = () => {
   return (
     <>
       <Title>
-        Discover a new
-        <br /> era of cool
+      Descubra uma nova
+        <br /> era de 
         <Typewriter
           options={{
             autoStart: true,
@@ -87,16 +87,16 @@ const TypeWriterText = () => {
               .typeString("<span class='text-1'>NFTS.</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-2'>Collectible Items.</span>")
+              .typeString("<span class='text-2'>Itens colecionáveis.</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-3'>Ape Killers!</span>")
+              .typeString("<span class='text-3'>Avatares!</span>")
               .deleteAll()
               .start();
           }}
         />
       </Title>
-      <Subtitle>Bored of Apes? Try Something New.</Subtitle>
+      <Subtitle>Entediado da mesmice? Tente algo Novo.</Subtitle>
       <ButtonContainer>
         <Button text="Explore" link="#about" />
       </ButtonContainer>
