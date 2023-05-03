@@ -6,8 +6,7 @@ import LinkedIn from "../Icons/LinkedIn";
 import Github from "../Icons/Github";
 import Email from "../Icons/Email";
 
-const Section = styled.footer`
-  overflow: hidden;
+const Section = styled.section`
   min-height: 100vh;
   width: 100vw;
   background-color: ${(props) => props.theme.body};
@@ -36,17 +35,6 @@ const Container = styled.div`
   }
 `;
 
-const Left = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: 48em) {
-    width: 100%;
-  }
-`;
-
 const IconList = styled.div`
   display: flex;
   align-items: center;
@@ -59,6 +47,17 @@ const IconList = styled.div`
     &:hover {
       transform: scale(1.2);
     }
+  }
+`;
+
+const Left = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 48em) {
+    width: 100%;
   }
 `;
 
@@ -110,6 +109,7 @@ const Bottom = styled.div`
 
     span {
       margin-bottom: 1rem;
+      text-align: center;
     }
   }
 `;
